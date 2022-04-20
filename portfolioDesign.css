@@ -1,0 +1,220 @@
+:root {
+    --primary: beige;
+    --secondary: rgb(192, 0, 32);
+    --terinary: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+image {
+    height: 40px;
+    width: 40px;
+}
+
+p {
+    color: var(--secondary);
+    font-family: 'alegreya', sans-serif;
+}
+
+.flex {
+    display: flex;
+    padding: 10px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+header {
+    background-color: var(--primary);
+    height: 100px;
+}
+
+header nav {
+    padding: 1rem 0;
+}
+
+header nav .left a {
+    color: var(--secondary);
+    text-decoration: none;
+    margin-right: 1.5rem;
+    padding: 25px;
+    font: size 18px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    font-weight: 200;
+}
+
+header nav .left a:hover {
+    background-color: var(--secondary);
+    color: var(--black);
+    transition: all 0.3s ease;
+}
+
+.btn {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    background: var(--primary);
+    color: var(--secondary);
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+    background-image: url(photo1.jpeg);
+    background-size: cover;
+    height: 450px;
+
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.nav {
+    padding: 5px;
+}
+
+#left {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+    align-items: center;
+}
+
+h1 {
+    color: var(--primary);
+    margin-left: 20px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.floatRight {
+    float: right;
+    align-items: center;
+    text-align: center;
+}
+
+.me {
+    margin-top: 10px;
+}
+
+.me .right img {
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 70px;
+}
+
+.me .left h3 span {
+    color: var(--terinary);
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+    color: var(--terinary);
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+p {
+    line-height: 23px;
+    margin-left: 20px;
+
+}
+.beginner{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+.education{
+    margin-left: 40px;
+}
+.skills {
+    font-size: 17px;
+    color: var(--secondary);
+    margin-left: 40px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    background-color: rgb(34, 30, 30);
+    color : white;
+}
+
+.fa-linkedin {
+    background: var(--primary);
+    color: var(--terinary);
+}
+
+.fa-instagram {
+    background: var(--primary);
+    color: var(--terinary);
+}
+
+.fa-github {
+    background: var(--primary);
+    color: var(--terinary);
+}
+
+.fa-hackerrank{
+    background: var(--primary);
+    color: var(--terinary);
+}
+
+.fa-interviewbit{
+    background: var(--primary);
+    color: var(--terinary);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.hobbies {
+    
+    height: 500px;
+}
+
+p span {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.aboutme {
+    margin-left: 40px;
+    background-color: var(--primary);
+    height: 170px;
+}
+
+.middle{
+    text-align: center;
+    font-size: 20px
+}
