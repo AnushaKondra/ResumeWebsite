@@ -3,11 +3,10 @@
     --secondary: rgb(192, 0, 32);
     --terinary: black;
 }
-
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 
 image {
@@ -35,11 +34,12 @@ p {
 
 header {
     background-color: var(--primary);
-    height: 100px;
+    height: 120px;
 }
 
 header nav {
     padding: 1rem 0;
+    height : 120px;
 }
 
 header nav .left a {
@@ -144,12 +144,14 @@ p {
 
 }
 .beginner{
-    margin-top: 20px;
+    padding:40px;
+    margin-top: 30px;
     text-align: center;
-    font-size: 60px;
+    margin-bottom: 20px;
 }
 .education{
     margin-left: 40px;
+
 }
 .skills {
     font-size: 17px;
@@ -168,22 +170,7 @@ p {
     color: var(--terinary);
 }
 
-.fa-instagram {
-    background: var(--primary);
-    color: var(--terinary);
-}
-
 .fa-github {
-    background: var(--primary);
-    color: var(--terinary);
-}
-
-.fa-hackerrank{
-    background: var(--primary);
-    color: var(--terinary);
-}
-
-.fa-interviewbit{
     background: var(--primary);
     color: var(--terinary);
 }
@@ -197,24 +184,34 @@ p {
     margin: 5px 2px;
 }
 
-.hobbies {
-    
-    height: 500px;
-}
 
 p span {
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 
 .aboutme {
     margin-left: 40px;
     background-color: var(--primary);
-    height: 170px;
+
+}
+.hobbies {
+    height: 500px;
 }
 
 .middle{
     text-align: center;
     font-size: 20px
+}
+
+.box{
+    margin: 40px;
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
 }
