@@ -1,12 +1,13 @@
 :root {
-    --primary: beige;
+    --primary: rgb(232, 232, 230);
     --secondary: rgb(192, 0, 32);
     --terinary: black;
 }
+
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 image {
@@ -39,7 +40,7 @@ header {
 
 header nav {
     padding: 1rem 0;
-    height : 120px;
+    height: 120px;
 }
 
 header nav .left a {
@@ -143,26 +144,29 @@ p {
     margin-left: 20px;
 
 }
-.beginner{
-    padding:40px;
+
+.beginner {
+    padding: 40px;
     margin-top: 30px;
     text-align: center;
     margin-bottom: 20px;
 }
-.education{
-    margin-left: 40px;
+
+.education {
+    margin-left: 50px;
 
 }
+
 .skills {
     font-size: 17px;
     color: var(--secondary);
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .fa:hover {
     opacity: 0.9;
     background-color: rgb(34, 30, 30);
-    color : white;
+    color: white;
 }
 
 .fa-linkedin {
@@ -192,26 +196,52 @@ p span {
 }
 
 .aboutme {
-    margin-left: 40px;
+    margin-left: 50px;
     background-color: var(--primary);
 
 }
+
 .hobbies {
+    margin-left: 20px;
     height: 500px;
 }
 
-.middle{
+.middle {
     text-align: center;
     font-size: 20px
 }
 
-.box{
+.box {
     margin: 40px;
     font-size: 20px;
 }
-li{
+
+li {
     font-size: 20px;
 }
-a{
+
+a {
     font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child-left {
+    /* font-family: 'Courier New', Courier, monospace;*/
+    padding: 20px;
+    flex: 0.7;
+    border: 1px solid rgb(232, 232, 230);
+    ;
+}
+
+.flex-child-right {
+    flex: 1;
+    border: 1px solid rgb(232, 232, 230);
+    ;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
 }
